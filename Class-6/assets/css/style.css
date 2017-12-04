@@ -1,0 +1,121 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #242524;
+}
+body {
+    font-family: 'Open Sans',sans-serif;
+    color: #717171;
+
+}
+a:hover { text-decoration: none }
+
+.section-padding {
+	padding: 80px 0;
+}
+.section-title{
+    margin-bottom: 75px;
+    text-align: center;
+}
+.section-title h2 span{
+    color: #26A65B;
+}
+.single-pricing-box{
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 20px;
+    -webkit-transition: .2s;
+    transition: .2s;
+}
+.single-pricing-box:hover{
+    border-color: #26A65B;
+    box-shadow: 0 0 50px #f1f1f1;
+    
+}
+.single-pricing-box:hover .pricing-icon{
+    color: #26A65B;
+}
+.single-pricing-box:hover .pricing-icon img{
+    opacity: .7;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)"
+}
+.single-pricing-box h3{
+    text-transform: uppercase;
+}
+.pricing-icon, .pricing-icon img{
+    font-size: 60px;
+    margin-bottom: 20px;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+.pricing-icon img{
+    max-width: 70px;
+}
+.pricing-lists{
+    text-align: left;
+    margin-bottom: 20px;
+}
+.pricing-lists ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	line-height: 30px;
+}
+.pricing-lists ul li{
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+.pricing-lists ul li:hover{
+    padding-left: 5px;
+}
+.pricing-lists ul li:before{
+    font-family: fontAwesome;
+    content: "\f00c";
+    color: #26A65B;
+    padding-right: 12px;
+    padding-left: 40px;
+}
+.pricing-lists ul li.off:before{
+    content: "\f00d";
+    color: red;
+}
+.single-pricing-box h3.pricing-count{
+    text-transform: none;
+}
+a.order-btn{
+    display: inline-block;
+    border: 1px solid #26A65B;
+    padding: 10px 30px;
+    border-radius: 50px;
+    color: #333;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+a.order-btn:hover{
+    background: #26A65B;
+    color: #fff;
+    
+}
