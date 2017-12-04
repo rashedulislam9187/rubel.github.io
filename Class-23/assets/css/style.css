@@ -1,0 +1,108 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+a:hover { text-decoration: none }
+
+.service-box-bg-1{background: url(../img/bg-1.jpg);}
+.service-box-bg-2{background: url(../img/bg-2.jpg);}
+.service-box-bg-3{background: url(../img/bg-3.jpg);}
+
+.section-padding {
+    padding: 80px 0;
+}
+.sectiontion-heading {
+    text-align: center;
+    margin-bottom: 60px;
+}
+.sectiontion-heading h2 {
+    text-transform: uppercase;
+}
+.sectiontion-heading p {
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 400;
+}
+.service-box-bg {
+    background-position: center;
+    height: 200px;
+    background-size: cover;
+    background-color: #ddd;
+    position: relative;   
+}
+
+.single-service-box {
+    border: 2px solid #E6E6E6;
+    text-align: center;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+.single-service-box:hover{
+    border: 2px solid #F97230;
+    box-shadow: 0 0 10px !important;
+}
+.service-box-bg h2 {
+    background: #F97230;
+    color: #fff;
+    padding: 16px;
+    font-size: 23px;
+    font-weight: 600;
+    position: absolute;
+    left: 8%;
+    width: 84%;
+    margin: 0;
+    bottom: -28px;
+
+}
+.service-box-content {
+    padding: 60px 15px;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.service-box-content p:last-child {
+    margin: 0;
+}
+
+.service-readmore {
+    display: inline-block;
+    color: #333;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+.service-readmore:hover {
+    color: #F97230;
+}
+.service-readmore i.fa {
+    padding-left: 5px;
+}
