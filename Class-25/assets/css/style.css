@@ -1,0 +1,131 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #333;
+    
+}
+body {
+    font-family: 'Open Sans',sans-serif;
+    color: #565;
+    
+}
+a:hover { text-decoration: none }
+
+
+.section_padding {
+    padding: 80px 0;
+}
+.section-title {
+    text-align: center;
+    margin-bottom: 60px;
+}
+.section-borders span {
+    display: inline-block;
+    background: #67B007;
+    height: 5px;
+    width: 50px;
+    border-radius: 2px;
+}
+.section-borders span.black-border {
+    background: #333;
+    width: 30px;
+    margin: 0 10px;
+}
+.single-feature-item {
+    margin-bottom: 40px;
+}
+
+.feature-borderd-img {
+    position: relative;
+    height: 120px;
+    width: 100px;
+    border: 1px solid #fff;
+    background: #ddd;
+    transition: .2s;
+}
+.feature-borderd-img:hover{
+    margin-left: 5px;
+}
+.feature-borderd-img:before {
+    background: #67B007;
+    position: absolute;
+    height: 100%;
+    right: -6px;
+    bottom: -6px;
+    z-index: -1;
+    content: "";
+    width: 100%;
+}
+.single-feature-item h3 {
+    border-bottom: 1px dashed #67B007;
+    padding: 15px 0;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.single-feature-item p {
+    line-height: 1.8;
+}
+
+.big-feature-borderd-img {
+    position: relative;
+    height: 100%;
+    width: 540px;
+    margin-left: 35px;
+    margin-top: 25px;
+    background: #ddd;
+    border: 1px solid #fff;
+}
+.big-feature-borderd-img:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #333;
+    height: 100%;
+    width: 100%;
+    opacity: .5;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    content: "";
+}
+.big-feature-borderd-img:before {
+    background: #67B007;
+    background-image: url(../img/debut-light.png);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: -10px;
+    top: 10px;
+    content: "";
+    z-index: -1;
+}
+.border-bottom span{
+    display: block;
+    background: #67B007;
+    height: 2px;
+    width: 100%;
+}
+.border-bottom {
+     margin: 60px 0 -40px;
+}
