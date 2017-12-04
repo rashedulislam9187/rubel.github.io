@@ -1,0 +1,84 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #333;
+}
+body {
+    font-family: 'Open Sans',sans-serif;
+    color: #9F9F9F;
+}
+a:hover { text-decoration: none }
+
+.gray-bg{
+    background-color: #fafafa;
+}
+.service-bg-1{background-image: url(../img/service-bg-1.jpg)}
+.service-bg-2{background-image: url(../img/service-bg-2.jpg)}
+.service-bg-3{background-image: url(../img/service-bg-3.jpg)}
+.service-bg-4{background-image: url(../img/service-bg-4.jpg)}
+
+.section-padding{
+    padding: 80px 0;
+}
+.section-title{
+    margin-bottom: 50px;
+}
+.single-service-item{
+    background: #fff;
+    -webkit-transition: .2s;
+    transition: .2s
+}
+.single-service-item:hover{
+    box-shadow: 0 0 15px #98FE9C;
+}
+.service-bg{
+    background-color: #ddd;
+    background-size: cover;
+    height: 225px;
+    background-position: center;    
+}
+.service-content {
+	padding: 15px;
+	margin-top: 15px;
+}
+.service-more-btn{
+    display: inline-block;
+    color: #2DB773;
+    font-weight: 700;
+    padding: 10px 0px;
+    margin-top: 10px;
+    border-radius: 50px;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+.service-more-btn i.fa{
+    padding-left: 10px;
+}
+.service-more-btn:hover{
+    background: #2DB773;
+    color: #fff;
+    padding: 10px 20px;
+}
