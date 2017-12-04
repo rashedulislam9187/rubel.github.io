@@ -1,0 +1,81 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+a:hover { text-decoration: none }
+
+
+.section-padding {
+  padding: 80px 0;
+}
+.sectiontion-heading {
+  margin-bottom: 70px;
+  text-align: center;
+}
+.single-team-item img {
+  border: 2px solid #E7E7E9;
+}
+.team-social-icons {
+  background: #5BA939;
+  text-align: center;
+  padding: 8px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: -27px;
+  position: relative;
+  z-index: 2;
+}
+.team-social-icons a {
+  color: #fff;
+  border: 1px solid;
+  display: inline-block;
+  height: 30px;
+  width: 35px;
+  text-align: center;
+  line-height: 27px;
+  border-radius: 5px;
+  margin: 2px;
+  font-size: 20px;
+  transition: .3s;
+}
+.team-social-icons a:hover {
+  color: #7A2831;
+}
+.single-team-item h4 {
+  text-align: center;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.single-team-item h4 span {
+  color: #5BA939;
+  display: block;
+  font-weight: 200;
+  font-size: 80%;
+  margin-top: 5px;
+}
