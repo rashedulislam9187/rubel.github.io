@@ -1,0 +1,88 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #C7C7C7;
+}
+a:hover { text-decoration: none }
+
+.video-area-bg{
+    background-image: url(../img/video-bg.jpg);background-color: #ddd; background-position: center; background-size: cover;
+}
+.check-icon li:before{
+    font-family: fontAwesome;content: "\f00c";
+}
+.video-area{
+    position: relative;
+    padding: 80px 0;
+}
+.video-area-bg {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 45%;
+    box-shadow: 0 0 20px #888;
+}
+.video-play-btn{
+    position: absolute;
+    right: -50px;
+    top: 50%;
+    height: 100px;
+    width: 100px;
+    background: #2ECC71;
+    color: #fff;
+    text-align: center;
+    display: block;
+    font-size: 40px;
+    line-height: 100px;
+    border-radius: 50%;
+    margin-top: -50px;
+    padding-left: 12px;
+        
+}
+h3{
+    color: #373737;
+}
+ul.check-icon{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 15px;
+    color: #3D3D3D;
+}
+.check-icon li{
+    position: relative;
+    padding-left: 35px;
+}
+.check-icon li:before{
+    position: absolute;
+    color: #2ECC71;
+    left: 0;
+    top: 2px;
+}
