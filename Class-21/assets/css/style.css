@@ -1,0 +1,142 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 300;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.7;
+}
+a:hover { text-decoration: none }
+
+.header-top-area {
+    background: #218AE6;
+    padding: 10px 0;
+}
+.header-top-area, .header-top-area a {
+    color: #fff;
+}
+.header-top-area .text-right i.fa {
+    padding-left: 30px;
+}
+.header-area {
+    margin: 25px 0;
+}
+.logo img {
+    padding-bottom: 10px;
+}
+.logo {
+    margin-bottom: -14px;
+}
+.logo h3 {
+    display: inline-block;
+}
+.logo h3 a {
+    display: block;
+    font-weight: 700;
+    color: #333;
+}
+.header-area ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.header-area li {
+    display: inline-block;
+}
+.header-area li a {
+    color: #333;
+    display: block;
+    text-transform: uppercase;
+    padding-left: 25px;
+    transition: .2s;
+}
+.header-area li a:hover{
+    color: #218AE6;
+}
+.header-area .text-right {
+	padding-top: 4px;
+}
+.homepage-slides {
+    background: #218AE6;
+    color: ;
+    color: #fff;
+    font-size: 15px;
+}
+.homepage-slides h2 {
+    font-size: 50px;
+    font-weight: 100;
+}
+.single-hompage-slide .col-md-7 {
+	padding-right: 150px;
+}
+.slide-btn {
+    background: #F9CF25;
+    font-size: 13px;
+    font-weight: 400;
+    color: #333;
+    padding: 12px 25px;
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 3px;
+    margin-top: 15px;
+    -webkit-transition: .2s;
+    transition: .2s;
+}
+.slide-btn:hover {
+	border: 1px solid #333;
+	color: #333;
+    border-radius: 5px;
+    
+}
+.single-hompage-slide {
+    padding: 150px 0;
+}
+.homepage-slides .owl-dots {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+.homepage-slides .owl-dots div {
+    background: #fff;
+    height: 13px;
+    width: 13px;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 5px;
+    -webkit-transition: .2s;
+    transition: .2s;
+}
+.homepage-slides .owl-dots div:hover{
+    border: 1px solid #333;
+}
+.homepage-slides .owl-dots div.active{
+    background: #F9CE26;
+}
