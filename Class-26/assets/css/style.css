@@ -1,0 +1,115 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus, input:focus, textarea:focus, button:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 400;
+}
+body {
+    font-family: 'Open Sans',sans-serif;
+}
+a:hover { text-decoration: none }
+
+
+.section-padding {
+    padding: 80px 0;
+}
+.white-box {
+    box-shadow: 0 0 10px #D9D9D9;
+    padding: 30px;
+}
+.white-box h4, .colored-box h4{
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+input[type="text"], input[type="email"], input[type="tel"],input[type="password"], input[type="url"], textarea {
+    background: #f9f9f9;
+    border: none;
+    padding: 15px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    margin-bottom: 15px;
+}
+.contact-form input[type="submit"] {
+    width: auto;
+    margin: 0;
+}
+
+input[type=submit], button[type=submit] {
+    background: #2694FE;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 3px;
+    color: #fff;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+.contact-form textarea {
+    height: 150px;
+    resize: none;
+}
+input[type="submit"]:hover {
+    box-shadow: 0 0 5px #333;
+    color: #333;
+    background: #fff;
+}
+.colored-box {
+    background: #2694FE;
+    color: #fff;
+    padding: 35px;
+    min-height: 465px;
+}
+.colored-box a {
+    color: #fff;
+}
+.contact-info {
+    position: relative;
+    padding-left: 40px;
+    margin-bottom: 25px;
+}
+.contact-info i.fa {
+    left: 0;
+    top: 4px;
+    font-size: 20px;
+    position: absolute;
+}
+.social-icons a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background: #fff;
+    color: #333;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 10px;
+    box-shadow: 0 0 3px #999;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+.social-icons a:hover {
+    color: #2694FE;
+    box-shadow: 0 0 0;
+}
