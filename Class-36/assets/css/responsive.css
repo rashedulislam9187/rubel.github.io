@@ -1,0 +1,89 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+.single-promo-box {
+	height: 375px;
+}
+.section-title h2 {
+	font-size: 34px;
+	margin-bottom: 35px;
+}
+.right-sight-content h4 {
+	font-size: 23px;
+	font-weight: 400;
+	line-height: 1.4;
+}
+.right-sight-content p {
+	font-size: 16px;
+	margin-top: 30px;
+	line-height: 1.5;
+}
+.right-sight-content {
+	padding: 90px 30px;
+}
+.bordered-btn, .boxed-btn {
+	display: inline-block;
+	margin-left: 10px;
+	padding: 18px 30px;
+	font-size: 15px;
+}
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+.single-promo-box {
+	height: 320px;
+	width: 100%;
+	margin-top: 30px;
+    float: none;
+    display: block;
+}
+.promo-box-tablecell {
+	display: block;
+}
+.right-sight-content {
+	padding: 70px 0;
+}
+.section-title h2 {
+	font-size: 34px;
+	margin-bottom: 25px;
+}
+.right-sight-content h4 {
+	font-size: 20px;
+	font-weight: 400;
+}
+.right-sight-content p {
+	font-size: 16px;
+	margin-top: 20px;
+}
+.section-btns {
+	margin-top: 30px;
+}
+.boxed-btn {
+	padding: 15px 30px;
+	font-size: 14px;
+}
+.bordered-btn {
+	padding: 15px 30px;
+	font-size: 14px;
+	margin-left: 0;
+	margin-top: 10px;
+}
+.section-btns {
+	text-align: center;
+}
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+.section-btns {
+	text-align: left;
+    
+}
+
+.bordered-btn {
+	margin-left: 15px;
+}
+}

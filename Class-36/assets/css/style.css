@@ -1,0 +1,186 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus, input:focus, textarea:focus, button:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+a:hover { text-decoration: none }
+
+
+.single-promo-box {
+    height: 380px;
+    width: 50%;
+    float: left;
+    text-align: center;
+    display: table;
+}
+.promo-box-wrap {
+    margin-left: -15px;
+    overflow: hidden;
+}
+.promo-box-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+    padding-top: 80px;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+.single-promo-box:nth-child(2) {
+    background: #DA879B;
+}
+.single-promo-box:nth-child(3) {
+    background: #7BBAD0;
+}
+
+.promo-icon:before {
+    font-size: 70px;
+    margin-left: 0;
+}
+.single-promo-box h2 {
+    position: relative;
+    z-index: 1;
+    font-weight: 700;
+    margin-bottom: 40px;
+    padding-bottom: 25px;
+}
+.single-promo-box:nth-child(2), .single-promo-box:nth-child(3) {
+    color: #fff;
+}
+.single-promo-box h2:after {
+    position: absolute;
+    height: 2px;
+    width: 40px;
+    left: 50%;
+    content: "";
+    background: #DA879B;
+    margin-left: -20px;
+    bottom: 0;
+}
+.single-promo-box:nth-child(2) h2:after, .single-promo-box:nth-child(3) h2:after {
+    background: #fff;
+}
+.single-promo-box:nth-child(1) h2, .single-promo-box:nth-child(4) h2 {
+    color: #44484D;
+}
+.single-promo-box:nth-child(1) .promo-icon {
+    color: #DA879B;
+}
+.single-promo-box:nth-child(4) {
+    color: #7BBAD0;
+}
+.single-promo-box:nth-child(4) h2:after {
+    background: #7BBAD0;
+}
+.single-promo-box .box-btn {
+    display: inline-block;
+    background: #DA879B;
+    padding: 16px 35px;
+    border-radius: 50px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    visibility: hidden;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+.single-promo-box:nth-child(2) .box-btn {
+    background: #7BBAD0;
+}
+.single-promo-box:hover .promo-box-tablecell {
+    padding-top: 0;
+}
+.single-promo-box:hover .box-btn {
+    visibility: visible;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}.right-sight-content {
+    padding: 110px 70px;
+}
+.section-title h3 {
+    font-style: italic;
+    font-weight: 500;
+    color: #7BBAD0;
+    font-family: Spectral SC;
+    font-size: 25px;
+    margin-bottom: ;
+}
+.section-title h2 {
+    font-size: 45px;
+    color: #44484D;
+    margin-bottom: 60px;
+}
+.right-sight-content h4 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #47505B;
+}
+.right-sight-content p {
+    font-size: 18px;
+    color: #848485;
+    margin-top: 25px;
+}
+.section-btns {
+    margin-top: 70px;
+}
+.boxed-btn {
+    display: inline-block;
+    border: 2px solid #7BBAD0;
+    padding: 18px 40px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 700;
+    color: #7BBAD0;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+.bordered-btn {
+    display: inline-block;
+    margin-left: 20px;
+    border: 2px solid #DA879B;
+    padding: 18px 40px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 700;
+    color: #DA879B;
+    -webkit-transition: .3s;
+    transition: .3s;
+
+}
+.boxed-btn:hover {
+    background: #7BBAD0;
+    color: #fff;
+}
+.bordered-btn:hover {
+    background: #DA879B;
+    color: #fff;
+}
