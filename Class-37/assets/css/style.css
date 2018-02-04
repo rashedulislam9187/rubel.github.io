@@ -1,0 +1,94 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus, input:focus, textarea:focus, button:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+a:hover { text-decoration: none }
+
+.team-bg {background-image: url(../img/model-1.jpg)}
+.team-bg-2 {background-image: url(../img/model-2.jpg)}
+.team-bg-3 {background-image: url(../img/model-3.jpg)}
+
+.team-bg {
+    height: 250px;
+    width: 100%;
+    background-size: cover;
+    background-position: center top;
+    background-color: #ddd;
+    margin-bottom: 50px;
+}
+.section-padding {
+    padding: 80px 0;
+}
+.section-title {
+    position: relative;
+    font-size: 36px;
+    color: #000000;
+    transform: rotate(270deg);
+    margin-top: 63px;
+    width: 250px;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 5px;
+    margin-left: -50px;
+}
+.section-title:before {
+    height: 2px;
+    width: 45%;
+    background: #B3B3B3;
+    content: "";
+    position: absolute;
+    top: -40px;
+    right: 37px;
+}
+
+.bordered-content {
+    border: 1px solid #737373;
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: #3A3A3A;
+    padding-bottom: 15px;
+}
+.bordered-title {
+    margin-top: -13px;
+}
+.bordered-title h3 {
+    font-size: 20px;
+    letter-spacing: 5px;
+    display: inline-block;
+    background: #fff;
+    margin-bottom: 10px;
+    padding: 0 10px;
+}
+.col-md-4:nth-child(2) .single-team-member {
+    margin-top: 125px;
+}
