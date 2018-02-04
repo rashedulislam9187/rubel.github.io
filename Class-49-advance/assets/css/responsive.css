@@ -1,0 +1,63 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+.tab-content h2 {
+	color: green;
+    }
+    .tab-list li {
+        width: 140px;
+    }
+    .container-bg {;
+	    height: 700px;
+    }
+    .custome-tab {
+	    height: 660px;;
+    }
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+    .tab-content h2 {
+        color: red;
+    }
+    .tab-list li {
+        width: 110px;
+    }
+    .tab-list li a {
+        font-size: 15px;;
+    }
+    .tab-content {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+    .tab-content h2 {
+        color: blue;
+    }
+    .tab-list {
+        text-align: center;
+    }
+    .tab-list li {
+        margin-bottom: 15px;
+    }
+    .tab-content {
+        margin-top: 230px;
+        font-size: 16px;
+        line-height: 1.6;
+    } 
+    .tab-list::after {
+        bottom: -30px;
+    }
+    .container-bg {
+        height: 1060px;
+    }
+    .custome-tab {
+        height: 1000px;
+    }
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+    .tab-content h2 {
+        color: deepskyblue;
+    }
+}

@@ -1,0 +1,183 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus, input:focus, textarea:focus, button:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family:'Lato',sans-serif;
+}
+a:hover { text-decoration: none }
+
+body, html {
+    height: 100%;
+}
+.welcome-area {
+    background-image: url(../img/radio.jpg);
+}
+.welcome-area {
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+    position: relative;
+    z-index: 1; 
+}
+.welcome-area:after {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	top: 0;
+	background: #fff;
+	content: "";
+	opacity: .8;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	z-index: -1;
+}
+
+.logo img {
+    max-width: 40px;
+    padding-right: 5px;
+}
+.logo a {
+    color: #DF2A25;
+}
+.logo h1 {
+    font-size: 20px;
+    font-weight: 800;
+    margin: 0;
+}
+.mainmenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.mainmenu li {
+    display: inline-block;
+    position: relative;
+}
+.mainmenu li a {
+    color: #42413E;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 10px 25px;
+    border-radius: 50px;
+    display: block;
+}
+.mainmenu li .bordered {
+    border: 1px solid;
+    color: #DF2A25;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+.mainmenu li a:hover.bordered {
+	background: red;
+	border: 1px solid #DF2A25;
+	color: #fff;
+}
+.logo {
+    margin-top: 4px;
+}
+.header-area {
+    padding: 20px 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+}
+.hero-area-table {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.hero-area-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+}
+.hero-text {
+    font-size: 20px;
+    font-weight: 300;
+    color: #42413E;
+}
+.hero-text h1 {
+    font-size: 50px;
+    font-weight: 800;
+}
+.email-subscribe-form {
+    font-size: 16px;
+    margin-top: 50px;
+    max-width: 500px;
+}
+.email-subscribe-form input[type=email] {
+    background: #fff;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    width: 55%;
+    margin-right: 2px;
+}
+.email-subscribe-form button[type=submit] {
+    background: #EF4043;
+    border: navajowhite;
+    padding: 15px 25px;
+    border-radius: 5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+}
+.social-icons a {
+    display: inline-block;
+    color: #42413E;
+    font-size: 20px;
+    padding-right: 15px;
+    margin-top: 15px;
+}
+.footer-area {
+    background: #42413E;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: 9;
+    padding: 10px 0;
+    font-size: 90%;
+    color: #999;
+}
+.footer-menu ul {
+    margin: 0;
+    padding: 0;
+    line-height: none;
+}
+.footer-menu li {
+    display: inline-block;
+    padding-left: 30px;
+}
+.footer-menu li a {
+    color: #999;
+}

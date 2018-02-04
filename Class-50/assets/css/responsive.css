@@ -1,0 +1,35 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+	.section-tiltle h2{color: green;}  
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+	.section-tiltle h2{color: red;} 
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+	.section-tiltle h2{
+		color: blue;
+	} 
+	.single-listing-box {
+		height: 220px;
+	}
+	.listing-hover {
+		font-size: 14px;
+		position: unset;
+		text-align: center;
+		padding-top: 50px;
+	}
+	.bordered-btn {
+		padding: 5px 25px;
+		margin-top: 5px;
+	}
+		
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+	.section-tiltle h2{color: black;}
+
+}

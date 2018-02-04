@@ -1,0 +1,60 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+    .pricing-content li {
+        color: green;
+    }
+    .pricing-content {
+        padding: 50px;
+    }
+    .active .pricing-content {
+        padding: 70px 50px;
+    }
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+    .pricing-content li {
+        color: blue;
+    }
+    .pricing-heading {
+        padding: 50px 10px;
+    }
+    .pricing-content {
+        padding: 50px 10px;
+    }
+    .active .pricing-content {
+        padding: 60px 30px;
+    }
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+    .pricing-content li {
+        color: red;
+    }
+    .single-pricing-box {
+        float: none;
+        width: 100%;
+    }
+    .single-pricing-box.active {
+        width: 100%;
+    }
+    .single-pricing-box {
+        margin-top: 0;
+    }
+    .pricing-content {
+        padding: 0;
+        margin-bottom: 50px;
+    }
+    .active .pricing-content {
+        padding: 0;
+        margin-top: 40px;
+    }
+    .section-padding {
+        padding: 0;
+}
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+    .pricing-content li {
+        color: yellow;
+    }
+}

@@ -1,0 +1,112 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,600,600i,700,700i');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus, input:focus, textarea:focus, button:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family:'Raleway',sans-serif;
+}
+a:hover { text-decoration: none }
+
+
+.section-padding {
+    padding: 80px 0;
+}
+
+.container-bg {
+    background: #444444;
+    padding: 20px 0;
+    height: 600px;
+}
+.custome-tab {
+    background: #fff;
+    padding: 20px 20px;
+    height: 560px;
+    position: relative;
+    z-index: 1;
+}
+.tab-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+    text-align: center;
+}
+.tab-list li {
+    display: inline-block;
+    box-shadow: -6px 5px 4px 4px #444444;
+    border-radius: 50px 0 50px 0px;
+    background: #EAEAEA;
+    height: 50px;
+    width: 160px;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+.tab-list li a {
+    display: block;
+    padding-top: 13px;
+    font-size: 17px;
+    font-style: italic;
+    font-weight: 500;
+    color: #333333;
+    -webkit-transition: .3s;
+    transition: .3s;
+    text-align: center;
+    padding: 15px;
+}
+.tab-content {
+    margin-top: 100px;
+    font-size: 18px;
+    font-style: italic;
+    line-height: 1.8;
+}
+.tab-list li.active a {
+    color: #FF0303;
+    text-decoration: none;
+}
+.tab-list li.active {
+    box-shadow: -6px 5px 4px 4px #FF0101;
+}
+.tab-list:after {
+    background: #444444;
+    content: "";
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    bottom: -45px;
+    left: 0;
+}
+.tab-list li:hover {
+    box-shadow: -6px 5px 4px 4px #FF0101;
+}
+.tab-list li:hover a {
+    color: #FF0101;
+    text-decoration: none;
+}

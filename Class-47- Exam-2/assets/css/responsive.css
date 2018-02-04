@@ -1,0 +1,107 @@
+/* Normal desktop :992px */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+.container{
+    width: 970px;
+}
+.single-brand a {
+  margin-right: 60px;
+}    
+}
+
+/* Tablet desktop :768px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.container{
+    width:750px;
+}
+.single-brand a {
+  margin-right: 30px;
+}    
+.footer-menu ul li a {
+  padding: 10px 0 0 15px;
+}    
+}
+
+/* Small mobile :320px */
+@media only screen and (max-width: 767px) {
+.container {
+    width:300px;
+}
+.logo {
+    margin-bottom: 15px;
+    text-align: center;
+}
+.mainmenu ul {
+  text-align: center;
+}    
+.mainmenu ul li a {
+  padding: 0 10px 0 0;
+    font-size: 12px;
+}  
+.mainmenu ul li.special-item {
+    text-align: center;
+    margin-top: 20px;
+} 
+.mainmenu ul li.special-item a {
+    padding: 5px 10px;
+    font-size: 14px;
+}  
+.mainmenu ul li.special-item a {
+  font-family: Roboto;
+  font-weight: 400;
+  letter-spacing: 1px;
+  padding: 5px 10px;
+  text-transform: none;
+    font-size: 12px;
+}  
+.slide-text {
+  margin-top: 100px;
+  text-align: center;
+}
+.slide-text h2 {
+  font-size: 22px;
+}    
+.slide-text p {
+  font-size: 14px;
+  padding: 0px 0;
+}   
+.video-play-btn {
+  font-size: 14px;
+  height: 50px;
+  line-height: 50px;
+  width: 50px;
+}   
+.theme-btn {
+  font-size: 14px;
+  padding: 8px 25px;
+}  
+.single-service {
+  margin-bottom: 30px;
+}    
+.price-rate {
+  font-size: 60px;
+}   
+.one-time-text p {
+  text-align: center;
+}    
+.single-brand a {
+  display: block;
+  margin: 15px 0;
+}    
+.footer-logo {
+  text-align: center;
+}  
+.footer-menu ul {
+  text-align: center;
+}   
+.footer-menu ul li a {
+  font-size: 13px;
+  padding: 20px 0 0 10px;
+}   
+}
+
+/* Large mobile :480px */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {
+    width:450px;
+}
+}

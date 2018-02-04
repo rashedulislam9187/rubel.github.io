@@ -1,0 +1,154 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus, input:focus, textarea:focus, button:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+a:hover { text-decoration: none }
+
+
+.listing-bg-1 {background-image: url(../img/carousel-bg-1.jpg);}
+.listing-bg-2 {background-image: url(../img/carousel-bg-2.jpg);}
+.listing-bg-3 {background-image: url(../img/carousel-bg-3.jpg);}
+.listing-bg-4 {background-image: url(../img/carousel-bg-4.jpg);}
+.listing-bg-5 {background-image: url(../img/carousel-bg-5.jpg);}
+.listing-bg-6 {background-image: url(../img/carousel-bg-6.jpg);}
+.listing-bg-7 {background-image: url(../img/carousel-bg-7.jpg);}
+
+
+.section-padding {
+    padding: 80px 0;
+}
+.section-tiltle {
+    text-align: center;
+    margin-bottom: 60px;
+}
+.section-tiltle h2 {
+    font-size: 38px;
+    font-weight: 300;
+    color: #212121;
+}
+.section-tiltle p {
+    font-size: 24px;
+    font-weight: 300;
+    color: #A2A2A2;
+}
+.section-tiltle a {
+    color: #F61511;
+}
+.single-listing-box {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 360px;
+    color: #fff;
+    background-color: #ddd;
+    border-radius: 5px;
+    z-index: 1;
+}
+.single-listing-box:after {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    content: "";
+    background: #333;
+    opacity: .2;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
+    z-index: -1;
+}
+.listing-hover {
+    position: absolute;
+    left: 10%;
+    bottom: 10%;
+    font-size: 20px;
+}
+.listing-hover h3 {
+    font-size: 30px;
+    font-weight: 400;
+}
+.listing-hover p {
+    color: #BDBDBD;
+}
+.bordered-btn {
+    color: #fff;
+    display: inline-block;
+    border: 2px solid #fff;
+    padding: 10px 35px;
+    border-radius: 50px;
+    margin-top: 10px;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+.bordered-btn:hover {
+    background: #BDBDBD;
+    border-color: green;
+    color: #333;
+}
+.listing-carousel.owl-carousel .owl-stage-outer {
+    overflow: inherit;
+}
+.section-padding.listing-carousel-wrap {
+    overflow-x: hidden;
+}
+.listing-carousel {
+    position: relative;
+}
+.listing-carousel:before, .listing-carousel:after {
+    position: absolute;
+    left: -502.6%;
+    top: 0;
+    background: #fff;
+    content: "";
+    height: 100%;
+    width: 500%;
+    z-index: 1;
+    opacity: .6;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+}
+.listing-carousel:after{
+    left: auto;
+    right: -502.6%
+}
+
+.listing-carousel .owl-dots div {
+    height: 16px;
+    width: 16px;
+    border: 2px solid #BEBEBE;
+    border-radius: 50px;
+    display: inline-block;
+    margin: 4px;
+}
+.listing-carousel .owl-dots div.active {
+    background-color: #BEBEBE;
+}
+.listing-carousel .owl-dots {
+    text-align: center;
+    margin-top: 30px;
+}

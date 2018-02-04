@@ -1,0 +1,549 @@
+/*================================================================================
+
+Template Name: Geobies
+Template URI: http://aerody.xyz
+Description: This is html5 template
+Author: Kalponik Oronno
+Author URI: http://aerody.xyz
+Version: 1.0
+
+==================================================================================
+
+CSS INDEX
+===================
+
+1. Reset css
+2. Color and background css
+3. Section title
+4. Hero area
+5. Promo area
+6. Service area
+7. One time area
+8. Testimonial area
+9. Brand area
+10. Project speach area
+11. Footer area
+
+=================================================================================*/
+
+/* -------------------------
+    1. Reset css
+-----------------------------*/
+
+body {
+	font-family: 'roboto', sans-serif;
+	font-weight: 400;
+	line-height: 1.7;
+	color: #333;
+	font-size: 16px;
+}
+html, body, .hero-area{
+    height: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0 0 15px;
+	font-weight: 700;
+}
+h2, .h2 {
+	font-size: 30px;
+}
+a:hover {
+	text-decoration: none;
+}
+input:focus, textarea:focus, button:focus, a:focus {
+	outline: none;
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+/* -------------------------
+    2. Color and background css
+-----------------------------*/
+.bg-image{
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+.bg-image::after {
+    background-color: #000;
+    height: 100%;
+    left: 0;
+    opacity: 0.1;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+    content: "";
+}
+.bg-1{
+    background-image: url(../images/one-time-job-bg.jpg);
+}
+.bg-2{
+    background-image: url(../images/footer-top-bg.jpg);
+}
+.promo-bg-1{
+    background-image: url(../images/service-bg-overlay-1.png);
+}
+.promo-bg-2{
+    background-image: url(../images/service-bg-overlay-2.png);
+}
+.promo-bg-3{
+    background-image: url(../images/service-bg-overlay-3.png);
+}
+.one-time-bg{
+    background-image: url(../images/one-time-job-info-overlay.png);
+}
+.bg-gray {
+	background: #f7f7f7;
+}
+.white-bg{
+    background: #fff;
+}
+.offwhite-bg{
+    background: #f5f5f5;
+}
+.dark-bg{
+    background: #1A1A1A;
+}
+.bg-gradiant{
+    background: -webkit-linear-gradient(18deg, rgb(53, 46, 184) 0%, rgb(140, 66, 225) 40%, rgb(190, 75, 240) 60%, rgb(247, 77, 238) 100%);
+    background: -o-linear-gradient(18deg, rgb(53, 46, 184) 0%, rgb(140, 66, 225) 40%, rgb(190, 75, 240) 60%, rgb(247, 77, 238) 100%);
+    background: -ms-linear-gradient(18deg, rgb(53, 46, 184) 0%, rgb(140, 66, 225) 40%, rgb(190, 75, 240) 60%, rgb(247, 77, 238) 100%);
+    background: -moz-linear-gradient(18deg, rgb(53, 46, 184) 0%, rgb(140, 66, 225) 40%, rgb(190, 75, 240) 60%, rgb(247, 77, 238) 100%);
+    background: linear-gradient(72deg, rgb(53, 46, 184) 0%, rgb(140, 66, 225) 40%, rgb(190, 75, 240) 60%, rgb(247, 77, 238) 100%);
+    position: relative;
+    z-index: 1;    
+}
+.bg-gradiant::after {
+    background: rgba(0, 0, 0, 0) url("../images/slider-bg-overlay.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    content: "";
+    height: 100%;
+    opacity: 0.5;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+.text-white{
+    color: #fff;
+}
+
+/* -------------------------
+    3. Section title
+-----------------------------*/
+.section-padding {
+	padding: 80px 0;
+}
+.section-title {
+	margin-bottom: 40px;
+    color: #333;
+}
+.section-title h2{
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 300;
+}
+.section-title p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    opacity: 0.5;
+}
+.text-white .section-title{
+	color: #fff;
+}
+
+/* -------------------------
+    4. Hero area
+-----------------------------*/
+.main-menu-area{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 60px 0;
+    z-index: 3;
+}
+.mainmenu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+.mainmenu ul li{
+    display: inline;
+    position: relative;
+}
+.mainmenu ul li:after{
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 0%;
+    height: 2px;
+    background: #333;
+    content: '';
+    transition: 0.5s;
+    opacity: 0.5;
+}
+.mainmenu ul li:hover:after{
+    width: 50%;
+}
+.mainmenu ul li a{
+    display: inline-block;
+    font-size: 16px;
+    color: #fff;
+    font-family: Roboto;
+    padding: 0 30px 0 0px;
+    transition: 0.5s ease;
+    border-bottom: 0px solid#ddd;
+}
+.mainmenu ul li a:hover{
+    color: #333; 
+}
+.mainmenu ul li.special-item a{
+    padding-right: 0;
+    background: #ff298e none repeat scroll 0 0;
+    border-radius: 30px;
+    color: #fff;
+    display: inline-block;   
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 15px 30px;
+    text-transform: uppercase;   
+    -webkit-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.5s;
+}
+.mainmenu ul li.special-item a:hover{
+    background: #d11970;
+    color: #fff;
+}
+.mainmenu li.special-item:hover::after {
+  display: none;
+}
+.homepage-slides{
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.single-homepage-slide{
+    display: table-cell;
+    vertical-align: middle;
+}
+.slide-text{
+    margin-top: 120px; 
+}
+.slide-text h2{
+    font-weight: 300;
+    font-size: 36px;  
+}
+.slide-text p{
+    font-weight: 400;
+    font-size: 18px;
+    padding: 30px 0;
+    line-height: 28px;
+    opacity: 0.5;    
+}
+.video-play-btn {
+    display: inline-block;
+    font-size: 18px;
+    height: 75px;
+    line-height: 75px;
+    text-align: center;
+    width: 75px;
+    color: #fff;
+    z-index: 10;
+    position: relative;
+
+}
+.video-play-btn:before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    opacity: 0.5;
+    left: 0;
+    top: 0;
+    border-radius: 50%;
+    z-index: -1;
+    transition: 0.3s;    
+}
+.video-play-btn:hover:before{
+    opacity: 1;
+}
+.video-play-btn:focus{
+    color: #fff;
+}
+.video-play-btn:hover{
+    color: #9572DE;
+}
+.theme-btn {
+    background: #ff298e;
+    border-radius: 30px;
+    color: #fff;
+    display: inline-block;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 12px 35px;
+    text-transform: uppercase;
+    transition: 0.5s ease;
+    border: 2px solid#ff298e;
+}
+.theme-btn:hover, .theme-btn:focus {
+    background: none;
+    color: #ff298e;
+    border: 2px solid#ff298e;
+}
+.theme-btn.btn-white:hover, .theme-btn:focus {
+    background: none;
+    color: #fff;
+    border: 2px solid#fff;
+}
+
+/* -------------------------
+    5. Promo area
+-----------------------------*/
+.single-promo {
+    background-color: #fff;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    padding: 70px;
+    position: relative;
+    text-align: center;
+    transition: all 0.5s ease 0s;
+    width: 100%;
+    z-index: 1;
+}
+.single-promo:hover {
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+    color: #8b8b8b;
+}
+.promo-icon{
+    margin-bottom: 90px;
+}
+.promo-digit {
+  font-size: 120px;
+  font-weight: 400;
+  left: 0;
+  line-height: 50px;
+  opacity: 0.1;
+  position: absolute;
+  text-align: center;
+  top: 75px;
+  width: 100%;
+}
+.single-promo p {
+  color: #333;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 20px;
+}
+
+/* -------------------------
+    6. Service area
+-----------------------------*/
+.single-service {
+    padding: 0 40px;
+    text-align: center;
+}
+.single-service i{
+    margin-bottom: 40px;
+    font-size: 24px;
+    transition: all 0.5s;    
+}
+.single-service h3{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: all 0.5s;     
+}
+.single-service p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    opacity: 0.5;
+    transition: all 0.5s;     
+}
+.single-service:hover i, .single-service:hover h3, .single-service:hover p{
+    color: #000;
+    opacity: 0.5;    
+}
+
+/* -------------------------
+    7. One time area
+-----------------------------*/
+.margin-minus {
+    background-color: #fff;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 3px 7px 30px -19px rgba(0, 3, 51, 0.75);
+    margin: -30px 0;
+    padding: 95px 70px;
+    position: relative;
+    width: 100%;
+    z-index: 4;
+}
+
+.margin-minus.white-bg{
+    -webkit-box-shadow: 3px 7px 30px -19px rgba(0,3,51,0.75);
+    -moz-box-shadow: 3px 7px 30px -19px rgba(0,3,51,0.75);
+    box-shadow: 3px 7px 30px -19px rgba(0,3,51,0.75);
+}
+.boxed-content{
+    position: relative;
+    text-align: center;
+}
+.price-rate{
+    font-size: 100px;
+    color: #333;
+}
+.price-rate span{
+    font-size: 45px;
+}
+.boxed-content p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #8e8e93;
+    margin-bottom: 40px;
+}
+.one-time-text-table {
+    display: table;
+    height: 400px;
+    width: 100%;
+}
+.one-time-text-table-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+.one-time-text p{
+    color: #fff;
+    font-size: 24px;
+    line-height: 40px;
+}
+
+/* -------------------------
+    8. Testimonial area
+-----------------------------*/
+.single-testimonial{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 34px;
+    color: #8e8e93;
+}
+.single-testimonial p{
+    margin-bottom: 25px;
+}
+.single-testimonial h3{
+    font-weight: 500;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 17px;
+    line-height: 25px;
+}
+.single-testimonial h3 span{
+    font-weight: 400;
+    color: #282828;
+    text-transform: none;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+.testimonial-slide-area .owl-dots {
+    margin-top: 40px;
+    text-align: center;
+}
+.testimonial-slide-area .owl-dots div {
+    background: #fff;
+    border-radius: 50px;
+    display: inline-block;
+    height: 10px;
+    margin: 0 7px;
+    transition: all 0.3s ease 0s;
+    width: 10px;
+    border: 2px solid#e6e6e6;
+}
+.testimonial-slide-area .owl-dots .active {
+    background: #333;
+    border: 2px solid#333;    
+}
+
+/* -------------------------
+    9. Brand area
+-----------------------------*/
+.single-brand{
+    text-align: center;
+}
+.single-brand a{
+    display: inline-block;
+    margin-right: 100px;
+    transition: 0.5s;
+}
+.single-brand a:last-child{
+    margin-right: 0;   
+}
+.single-brand a:hover{
+    opacity: 0.5;
+}
+
+/* -------------------------
+    10. Project speach area
+-----------------------------*/
+.projcet-speach{
+    color: #fff;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 300;
+}
+.projcet-speach p{
+    margin-bottom: 30px;
+}
+
+/* -------------------------
+    11. Footer area
+-----------------------------*/
+.footer-area {
+    background: #1a1a1a;
+}
+.footer-menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+.footer-menu ul li{
+    display: inline-block;
+}
+.footer-menu ul li a{
+    color: #fff;
+    display: block;
+    padding: 10px 0px 0px 40px;
+    -webkit-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+.footer-menu ul li a:hover{
+    color: #E11B79
+}
