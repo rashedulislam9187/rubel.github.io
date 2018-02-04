@@ -1,0 +1,151 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus, input:focus, textarea:focus, button:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+a:hover { text-decoration: none }
+
+html, body {
+    height: 100%;
+}
+
+.welcome-area {
+    background-image: url(../img/slider-bg-3.jpg);
+    background-color: #ddd;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    display: table;
+    position:  relative;
+    z-index:  1;
+}
+.welcome-area:after {
+    position:  absolute;
+    left:  0;
+    top: 0;
+    background:  #333;
+    content:  "";
+    height:  100%;
+    width:  100%;
+    opacity:  .5;
+    z-index:  -1;
+}
+.welcome-area-wrap {
+    display:  table-cell;
+    vertical-align:  middle;
+    text-align:  center;
+    color:  #fff;
+}
+
+.welcome-area-wrap h2 {
+    font-size:  80px;
+    font-weight:  300;
+}
+
+.welcome-area-wrap h4 {
+    font-size: 32px;
+    font-weight: 400;
+    color:  #C5C6C8;
+}
+
+.email-subscribe-form {
+    width:  450px;
+    margin: 60px auto;
+    margin-bottom: 25px;
+}
+
+.email-subscribe-form
+ input {
+    width:  100%;
+    padding:  20px;
+    text-align:  center;
+    font-weight: 400;
+    font-size:  16px;
+    border:  none;
+    border-radius:  50px;
+    font-style:  italic;
+}
+
+.email-subscribe-form
+ input[type=submit] {
+    background:  #FDAC36;
+    font-weight:  700;
+    font-style:  normal;
+    font-size: 18px;
+    text-transform:  uppercase;
+    margin-top: 25px;
+}
+
+.clock {
+    position: relative;
+    color:  #78787A;
+    font-size: 40px;
+    display:  inline-block;
+    width:  100%;
+    position:  relative;
+    opacity:  .7;
+}
+
+.clock:before {
+    position:  absolute;
+    left: 0;
+    bottom:  50%;
+    content:  "";
+    background:  #78787A;
+    height:  2px;
+    width: 45%;
+    opacity:  .3;
+}
+
+.clock:after {
+    position:  absolute;
+    background:  #78787A;
+    right: 0;
+    content:  "";
+    height:  2px;
+    width:  45%;
+    bottom:  50%;
+    opacity:  .3;
+}
+.single-countdown-wrap {
+    font-size:  80px;
+    display:  inline-block;
+    text-align:  center;
+    padding: 20px;
+}
+
+.single-countdown-wrap span {
+    font-size:  25%;
+    margin: 0px 16px 40px 0;
+    display:  block;
+    text-transform:  uppercase;
+}
+
+

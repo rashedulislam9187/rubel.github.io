@@ -1,0 +1,53 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+	.section-title h2 {
+		color: green;
+	}
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+	.section-title h2 {
+		color: red;
+	}
+	.mainmenu li a {
+		font-size: 15px;
+		line-height: 45px;
+	}.submenu li a {
+		font-size: 14px;
+	}
+	.tab-pane {
+		padding: 80px;
+	}
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+	.section-title h2 {
+		color: blue;
+	}
+	.mainmenu li {
+		width: 40%;
+	}
+	.mainmenu ul > li {
+		float: none;
+	}
+	.submenu {
+		left: 100%;
+		top: 0;
+	}
+	.submenu li {
+		width: 200%;
+	}
+	.mainmenu {
+		height: 800px;
+	}
+	.tab-pane {
+		font-size: 16px;
+		padding: 20px;
+	}
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+	.section-title h2 {
+		color: orange;
+	}
+}

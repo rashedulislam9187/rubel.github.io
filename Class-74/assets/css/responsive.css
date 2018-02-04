@@ -1,0 +1,40 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+	.welcome-area-wrap h2 {
+		color: green;
+	}
+
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+	.welcome-area-wrap h2 {
+		color: red;
+	}
+	.single-countdown-wrap {
+	    font-size:  50px;
+	}
+
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+	.welcome-area-wrap h2 {
+		color: blue;
+	}
+	.email-subscribe-form {
+	    width: 350px;
+	    margin: 50px auto;
+	}
+	.single-countdown-wrap {
+	    font-size:  50px;
+	}
+	.single-countdown-wrap span {
+	    margin: 0px 12px 0px 0;
+	}
+
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+	.welcome-area-wrap h2 {
+		color: orange;
+	}
+}

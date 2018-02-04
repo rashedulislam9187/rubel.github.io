@@ -1,0 +1,280 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus, input:focus, textarea:focus, button:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+a:hover { text-decoration: none }
+
+
+.mainmenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.mainmenu {
+    background: #25375B;
+    height: 480px;
+}
+.mainmenu li {
+    background: #262626;
+    border-bottom: 2px solid #181818;
+    border-top: 2px solid #303030;
+    width: 16.66666%
+}
+.mainmenu ul > li {
+    display: block;
+    float: left;
+    position: relative;
+}
+.mainmenu li a {
+    border-left: 3px solid rgba(0, 0, 0, 0);
+    border-right: 3px solid rgba(0, 0, 0, 0);
+    color: #808080;
+    display: block;
+    font-family: 'Lucida Console';
+    font-size: 18px;
+    line-height: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+}
+.mainmenu li:hover {
+    background-color: #1c1c1c;
+    border-bottom: 2px solid #222222;
+    border-top: 2px solid #1B1B1B;
+}
+.mainmenu li:hover > a {
+    border-radius: 5px 0 0 0;
+    border-left: 3px solid red;
+    color: red;
+}
+.submenu {
+    left: 0;
+    max-height: 0;
+    position: absolute;
+    top: 100%;
+    z-index: 0;
+    -webkit-perspective: 400px;
+            perspective: 400px;
+}
+.submenu li {
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -webkit-transform: rotateY(90deg);
+            transform: rotateY(90deg);
+    -webkit-transition: opacity .4s, -webkit-transform .5s;
+    transition: opacity .4s, -webkit-transform .5s;
+    transition: opacity .4s, transform .5s;
+    transition: opacity .4s, transform .5s, -webkit-transform .5s;
+    border-radius: 0 100px;
+    -webkit-transition: .3s;
+    transition: .3s;
+    width: 100%;
+}
+.submenu li a {
+    text-align: center;
+}
+.mainmenu ul .submenu li:hover a {
+    border-left: 3px solid red;
+    border-right: 3px solid red;
+    border-radius: 0 100px;
+    color: #ffffff;
+}
+.mainmenu ul > li:hover .submenu, .mainmenu ul > li:focus .submenu {
+    max-height: 2000px;
+    z-index: 10;
+}
+.mainmenu ul > li:hover .submenu li, .mainmenu ul > li:focus .submenu li {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    -webkit-transform: none;
+            transform: none;
+}
+.mainmenu li:hover .submenu li:nth-child(1) {
+    -webkit-transition-delay: 0s;
+            transition-delay: 0s;
+}
+
+.mainmenu li:hover .submenu li:nth-child(2) {
+    -webkit-transition-delay: 50ms;
+            transition-delay: 50ms;
+}
+
+.mainmenu li:hover .submenu li:nth-child(3) {
+    -webkit-transition-delay: 100ms;
+            transition-delay: 100ms;
+}
+
+.mainmenu li:hover .submenu li:nth-child(4) {
+    -webkit-transition-delay: 150ms;
+            transition-delay: 150ms;
+}
+
+.mainmenu li:hover .submenu li:nth-child(5) {
+    -webkit-transition-delay: 200ms;
+            transition-delay: 200ms;
+}
+
+.mainmenu li:hover .submenu li:nth-child(6) {
+    -webkit-transition-delay: 250ms;
+            transition-delay: 250ms;
+}
+
+.mainmenu li:hover .submenu li:nth-child(7) {
+    -webkit-transition-delay: 0s;
+            transition-delay: 0s;
+}
+.submenu li:nth-child(1) {
+    -webkit-transition-delay: 0s;
+            transition-delay: 0s;
+}
+
+.submenu li:nth-child(2) {
+    -webkit-transition-delay: 50ms;
+            transition-delay: 50ms;
+}
+
+.submenu li:nth-child(3) {
+    -webkit-transition-delay: 100ms;
+            transition-delay: 100ms;
+}
+
+.submenu li:nth-child(4) {
+    -webkit-transition-delay: 150ms;
+            transition-delay: 150ms;
+}
+
+.submenu li:nth-child(5) {
+    -webkit-transition-delay: 200ms;
+            transition-delay: 200ms;
+}
+
+.submenu li:nth-child(6) {
+    -webkit-transition-delay: 250ms;
+            transition-delay: 250ms;
+}
+
+.submenu li:nth-child(7) {
+    -webkit-transition-delay: 0s;
+            transition-delay: 0s;
+}
+.tab-content {
+    margin-top: 40px;
+}
+.tab-pane {
+    color: #fff;
+    font-size: 18px;
+    padding: 140px;
+}
+.mainmenu li.active a {
+    color: red;
+}
+
+.service-box-bg {background-image: url(../img/medical-bg-1.jpg);}
+.service-box-bg-1 {background-image: url(../img/medical-bg-2.jpg);}
+.service-box-bg-2 {background-image: url(../img/medical-bg-3.jpg);}
+
+.service-box-bg {
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+    height: 250px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    border-radius: 5px 5px 0 0;
+}
+
+.section-padding {
+    padding: 60px 0;
+}
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 18px;
+}
+.section-title h2 {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 35px;
+}
+.section-title h2 span {
+    color: #11CAD0;
+}
+.section-title p {
+    color: #858484;
+    font-weight: ;
+}
+.service-box-bg i:before {
+    margin: 0;
+    font-size: 50px;
+    line-height: 90px;
+}
+.service-box-bg i {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background: #25375B;
+    color: #fff;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    left: 50%;
+    margin-left: -50px;
+    -webkit-transition: .3s;
+    transition: .3s;
+    bottom: -30px;
+}
+.single-service-box {
+    border: 1px solid #E5E5E5;
+    border-radius: 5px;
+    display: block;
+    color: #333;
+}
+.single-service-box h2 {
+    text-align: center;
+    margin: 0;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 2px;
+    -webkit-transition: .3s;
+    transition: .3s;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+.single-service-box:hover h2 {
+    background: #25375B;
+    color: #fff;
+    border-radius: 0 0 5px 5px;
+}
+.single-service-box:hover .service-box-bg i {
+    background: #11CAD0;
+    border-color: #25375B;
+}

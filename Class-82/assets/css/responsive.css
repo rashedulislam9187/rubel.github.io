@@ -1,0 +1,87 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+.featured-project-wrap h2 {
+	color: green;
+}
+.project-text {
+    padding-left: 260px;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    margin-top: 180px;
+}
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+.featured-project-wrap h2 {
+	color: blue;
+}
+.project-text {
+    padding-left: 180px;
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 20px;
+    margin-top: 170px;
+}
+a.more-link {
+    margin-top: 20px;
+}
+.feature-projects .owl-dots div {
+    font-size: 35px;
+    margin-right: 10px;
+}
+ul.tab-list li a {
+    font-size: 35px;
+    margin-right: 10px;
+}
+.tab-list {
+    bottom: -10px;
+}
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+.featured-project-wrap h2 {
+	color: green;
+
+}
+.project-text {
+    padding-left: 100px;
+    font-size: 14px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-right: 5px;
+    margin-top: 150px;
+}
+.featured-project-wrap h2 {
+    width: 35%;
+    font-size: 20px;
+}
+.project-text h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+a.more-link {
+    margin-top: 10px;
+}
+.feature-projects .owl-dots div {
+    font-size: 18px;
+    margin-right: 10px;
+}
+ul.tab-list li a {
+    font-size: 16px;
+    margin-right: 10px;
+}
+.tab-list {
+    bottom: 0;
+}
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+.featured-project-wrap h2 {
+	color: red;
+}
+.project-text {
+    padding-left: 170px;
+}
+}

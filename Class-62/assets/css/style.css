@@ -1,0 +1,158 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus, input:focus, textarea:focus, button:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+a:hover { text-decoration: none }
+
+.single-portfolio-item {background-image: url(../img/protfoli-1.jpg);background-size: cover;background-position: center;height: 300px;background-color: #ddd;}
+
+.portfolio-bg-2 {background-image: url(../img/protfoli-2.jpg);}
+.portfolio-bg-3 {background-image: url(../img/protfoli-3.jpg);}
+.portfolio-bg-4 {background-image: url(../img/protfoli-4.jpg);}
+.portfolio-bg-5 {background-image: url(../img/protfoli-5.jpg);}
+.portfolio-bg-6 {background-image: url(../img/protfoli-6.jpg);}
+.portfolio-bg-7 {background-image: url(../img/protfoli-7.jpg);}
+.portfolio-bg-8 {background-image: url(../img/protfoli-8.jpg);}
+.portfolio-bg-9 {background-image: url(../img/protfoli-9.jpg);}
+
+
+
+.header-area ul {
+  margin: 0 0 50px;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+.header-area li.active{
+  border-color: #202020;
+}
+.header-area li {
+  display: inline-block;
+  color: #6E6768;
+  border-bottom: 2px solid transparent;
+  margin-right: 30px;
+  cursor: pointer;
+}
+.header-area li:last-child {
+  margin-right: 0;
+}
+
+.section-padding {
+  padding: 80px 0;
+}
+.single-portfolio-item {
+  margin-bottom: 30px;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  -webkit-transition: .3s;
+  transition: .3s;
+  display: table;
+  cursor: pointer;
+}
+.single-portfolio-item:before {
+  border-bottom: 2px solid #202020;
+  content: "";
+  left: 0;
+  bottom: 0;
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  border-left: 2px solid #202020;
+  z-index: 2;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+.single-portfolio-item:after {
+  content: "";
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-top: 2px solid #202020;
+  border-right: 2px solid #202020;
+  -webkit-transition: .3s;
+  transition: .3s;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  z-index: 2;
+}
+.single-portfolio-item:hover:after, .single-portfolio-item:hover:before {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+.portfolio-hover {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  padding: 60px;
+  position: relative;
+  z-index: 1;
+  color: #444544;
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  visibility: hidden;
+  -webkit-transform: scale(.7);
+          transform: scale(.7);
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+.portfolio-hover h4 {
+  font-size: 16px;
+  line-height: 1.7;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.portfolio-hover p {
+  margin: 0;
+  font-weight: 300;
+}
+.portfolio-hover:after {
+  background: #fff;
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  opacity: .8;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+}
+.single-portfolio-item:hover .portfolio-hover {
+  visibility: visible;
+  opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}

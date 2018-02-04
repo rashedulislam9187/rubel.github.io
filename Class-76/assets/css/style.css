@@ -1,0 +1,133 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus, input:focus, textarea:focus, button:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.2;
+}
+
+a:hover { text-decoration: none }
+
+.section-padding {
+    padding: 80px 0;
+}
+.round-bg:after {
+    background-image: url(../img/round-bg.jpg);
+}
+
+.section-padding.round-bg {
+    position:  relative;
+    z-index:  1;
+}
+
+.section-padding.round-bg:after {
+    position:  absolute;
+    left:  50%;
+    top: 50%;
+    height: 460px;
+    width: 460px;
+    content:  "";
+    border-radius:  50%;
+    margin-left: -230px;
+    margin-top: -230px;
+    z-index:  -1;
+    background-color:  #ddd;
+    background-position:  center;
+    background-size:  cover;
+}
+
+.single-feature-item {
+    position:  relative;
+    z-index:  1;
+    color: #757575;
+    font-size: 16px;
+    padding-top: 30px;
+    padding-right: 170px;
+    text-align:  right;
+    line-height: 1.4;
+    padding-bottom: 30px;
+    margin-right:  20px;
+}
+
+.feature-icon {
+    position:  absolute;
+    right:  0;
+    height: 150px;
+    width: 150px;
+    background:  #fff;
+    text-align:  center;
+    border-radius:  50%;
+    top: 0;
+    padding: 10px;
+    transition:  .3s;
+}
+
+.feature-icon i {
+    font-size: 50px;
+    color:  #0160BE;
+    border:  1px solid#ddd;
+    height:  100%;
+    width:  100%;
+    border-radius:  50%;
+    line-height: 125px;
+    transition:  .3s;
+}
+
+.single-feature-item h2 {
+    font-weight:  400;
+    color:  #282828;
+    font-size: 25px;
+}
+
+.left-icon .feature-icon {
+    left:  0;
+    right: auto;
+}
+
+.single-feature-item.left-icon {
+    padding-right: 0;
+    text-align:  left;
+    margin-right: 0;
+    margin-left: 20px;
+    padding-left: 170px;
+}
+
+.single-feature-item.feature-padding-left {margin-right: 120px;}
+
+.single-feature-item.feature-padding-right.left-icon {
+    margin-left: 120px;
+}
+
+.single-feature-item:hover .feature-icon {
+    box-shadow: 0 0 20px #FF0000;
+}
+
+.single-feature-item:hover .feature-icon i {
+    box-shadow: 0 0 5px #004CA6;
+    color: red;
+}

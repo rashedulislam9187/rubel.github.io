@@ -1,0 +1,173 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus, input:focus, textarea:focus, button:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+a:hover { text-decoration: none }
+
+
+.section-padding {
+  padding: 80px 0;
+}
+.section-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.section-title h2 {
+  text-transform: uppercase;
+  color: #212121;
+  font-weight: 400;
+}
+.testimonial-top img {
+  max-width: 120px;
+  display: inline-block;
+  margin-top: -40px;
+}
+.testimonial-top h3 {
+  text-transform: uppercase;
+  font-weight: 400;
+  display: inline-block;
+  text-align: left;
+  font-size: 20px;
+  margin-left: 30px;
+  color: #2F302F;
+}
+.single-testimonial-item {
+  text-align: center;
+  box-shadow: 0 0 10px #E4E4E4;
+  padding: 40px 60px;
+}
+
+.testimonial-top h3 span {
+  font-size: 75%;
+  font-weight: 300;
+  opacity: .5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  margin-top: 15px;
+  display: inline-block;
+  color: #757575;
+  text-transform: none;
+}
+.testimonial-top {
+  padding: 33px;
+  padding-bottom: 0;
+}
+.testimonial-content {
+  color: #8C8C8C;
+  font-weight: 300;
+  line-height: 2;
+  margin-top: 40px;
+  font-size: 15px;
+}
+.testimonial-author-name ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  height: 275px;
+  overflow-y: hidden !important;
+  padding-top: 20px;
+}
+.testimonial-author-name a {
+    text-decoration: none;
+}
+.testimonial-author-name img {
+  max-width: 70px;
+  border-radius: 50px;
+  display: inline-block;
+  margin-bottom: 25px;
+  opacity: .5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+}
+.testimonial-author-name .active img {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+.testimonial-author-name h3 {
+  font-size: 18px;
+  font-weight: 300;
+  color: #474747;
+  display: inline-block;
+  text-transform: uppercase;
+  margin-left: 13px;
+  max-width: 160px;
+}
+.testimonial-author-name h3 span {
+  text-transform: none;
+  font-size: 75%;
+  opacity: .5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  margin-top: 10px;
+  display: inline-block;
+  font-weight: 300;
+}
+.testimonial-author-name li {
+  margin-bottom: -10px;
+}
+.testimonial-wrapper {
+  position: relative;
+}
+.testimonial-left-title h2 {
+  font-size: 50px;
+  font-weight: 900;
+  color: #ECEBEB;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 0;
+}
+
+.testimonial-left-title {
+  position: absolute;
+  left: -25%;
+  bottom: -200px;
+  z-index: 1;
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+  width: 450px;
+}
+.testimonial-left-title:after {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  height: 2px;
+  width: 100%;
+  background: #ECEBEB;
+  content: "";
+}
+.testimonial-left-title span {
+  display: inline-block;
+  background: #fff;
+  position: relative;
+  z-index: 2;
+  padding-right: ;
+}
+
+.ps > .ps__scrollbar-y-rail {
+  opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}

@@ -1,0 +1,64 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+	.section-title h2{
+		color: red;
+	}
+	.testimonial-author-name h3 {
+		font-size: 14px;
+		margin-left: 10px;
+	}
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+	.section-title h2{
+		color: blue;
+	}
+	.single-testimonial-item {
+		padding: 30px;
+	}
+	.testimonial-left-title {
+		left: -40%;
+		bottom: -230px;
+		width: 530px;
+	}
+	.testimonial-top h3 {
+		font-size: 17px;
+		margin-left: 18px;
+	}
+	.testimonial-top img {
+		max-width: 100px;
+	}
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+	.section-title h2{
+		color: green;
+	}
+	.section-title {
+		margin-bottom: 30px;
+	}
+	.testimonial-top h3 {
+		display: block;
+		text-align: center;
+		margin-left: 0;
+		margin-top: 20px;
+	}
+	.testimonial-top {
+		padding: 60px 20px;
+	}
+	.single-testimonial-item {
+		padding: 0;
+	}
+	.testimonial-author-name {
+		margin-top: 60px;
+	}
+	.testimonial-left-title {
+		display: none;
+	}
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+	.section-title h2{
+		color: red;
+	}
+}

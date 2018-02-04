@@ -1,0 +1,139 @@
+/* Base CSS */
+
+@font-face {
+    font-family: 'Asiyah Script';
+    src: url('../fonts/AsiyahScript.eot');
+    src: url('../fonts/AsiyahScript.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AsiyahScript.woff2') format('woff2'),
+        url('../fonts/AsiyahScript.woff') format('woff'),
+        url('../fonts/AsiyahScript.ttf') format('truetype'),
+        url('../fonts/AsiyahScript.svg#AsiyahScript') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Vidaloka');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus, input:focus, textarea:focus, button:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-family: 'Asiyah Script';
+    font-weight: normal;
+    
+}
+body {
+    font-family: 'Vidaloka', serif;
+    font-size: 16px;
+}
+
+a:hover { text-decoration: none }
+
+.carousel-bg-1 {background-image: url(../img/tour-bg-1.jpg);}
+.carousel-bg-2 {background-image: url(../img/tour-bg-2.jpg);}
+.carousel-bg-3 {background-image: url(../img/tour-bg-3.jpg);}
+.carousel-bg-4 {background-image: url(../img/tour-bg-4.jpg);}
+.carousel-bg-5 {background-image: url(../img/tour-bg-5.jpg);}
+
+body, html {
+    height:  100%;
+}
+
+.single-carousel-item {
+    height:  100%;
+    width:  100%;
+    background-size:  cover;
+    background-position:  center;
+    background-color:  #ddd;
+    display:  table;
+}
+
+.carousel-item-tablecell {
+    display:  table-cell;
+    vertical-align:  middle;
+    text-align:  center;
+    color:  #fff;
+}
+
+.carousel-item-tablecell h1 {
+    font-size:  150px;
+    margin: 0;
+}
+
+a.boxed-btn {
+    color:  #fff;
+    display:  inline-block;
+    background: #D8085E;
+    padding:  10px 30px;
+    border-radius:  5px;
+    margin-top: 20px;
+    transition: .3s;
+    text-decoration: none;
+}
+
+a.boxed-btn:hover {
+    background: #fff;
+    color: #D8085E;
+}
+
+.carousel-slide, .carousel-slide div {
+    height:  100%;
+}
+
+.carousel-slide div.carousel-item-tablecell, .carousel-slide div.carousel-item-tablecell div, .carousel-slide div.owl-nav, .carousel-slide div.owl-nav div, .carousel-slide div.owl-dots, .carousel-slide div.owl-dots div {
+    height:  auto;
+}
+
+.carousel-slide .owl-nav div {
+    position:  absolute;
+    left:  50px;
+    top: 50%;
+    color:  #fff;
+    font-size:  50px;
+    line-height:  60px;
+    margin-top: -30px;
+}
+
+.carousel-slide .owl-nav div.owl-next {
+    left:  auto;
+    right: 50px;
+}
+.carousel-slide .owl-dots img {
+    height:  100px;
+    width:  100px;
+}
+
+.carousel-slide .owl-dots div {
+    display:  inline-block;
+    margin-left:  20px;
+    border:  5px solid transparent;
+}
+
+.carousel-slide .owl-dots {
+    position:  absolute;
+    right: 10%;
+    bottom: -50px;
+}
+
+.carousel-slide .owl-dots .active {
+    border: 5px solid red;
+}

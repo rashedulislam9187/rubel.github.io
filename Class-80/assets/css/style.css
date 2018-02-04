@@ -1,0 +1,218 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700,700i,900,900i');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus, input:focus, textarea:focus, button:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    
+}
+body {
+    line-height: 1.2;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+a:hover { text-decoration: none }
+
+.section-padding {
+    padding: 80px 0;
+}
+
+.single-portfolio-item {background-image: url(../img/desk-wallpaper-1.jpg);}
+.bg-2 {background-image: url(../img/desk-wallpaper-2.jpg);}
+.bg-3 {background-image: url(../img/desk-wallpaper-3.jpg);}
+.bg-4 {background-image: url(../img/desk-wallpaper-4.jpg);}
+
+.logo img {
+    max-width:  30px;
+    margin-top: -5px;
+}
+
+.header-area a {
+    color:  #333;
+}
+
+.logo {
+    text-transform:  uppercase;
+    margin-top: 15px;
+}
+.logo h2 a {
+    -webkit-transition: .3s;
+    transition:  .3s;
+}
+
+.logo h2:hover a {
+    color:  #E3BB1D;
+}
+.mainmenu ul {
+    margin:  0;
+    padding:  0;
+    list-style:  none;
+}
+
+.mainmenu li {
+    display:  inline-block;
+}
+
+.mainmenu li a {
+    display:  block;
+    padding:  20px;
+    font-weight:  600;
+    font-size: 16px;
+    padding-right: 0;
+    padding-left:  40px;
+    -webkit-transition: .3s;
+    transition:  .3s;
+}
+
+.header-area-text {
+    background-color:  #1C1D1F;
+    padding-top: 200px;
+    padding-bottom:  100px;
+}
+
+.header-area-text h2 {
+    color:  #fff;
+    font-size: 47px;
+    line-height: 1.6;
+    font-weight:  400;
+}
+
+.header-area-text a, .header-area-text, .section-padding.dark-bg p, .footer-area a, .footer-area p {
+    color:  #55595D;
+    font-weight:  600;
+}
+
+.header-area-text h2 span {
+    color:  #E3BB1D;
+    text-transform:  uppercase;
+}
+
+.header-area.position-absolute, .header-area.position-absolute a {
+    color:  #fff;
+}
+
+.header-area.position-absolute {
+    position:  absolute;
+    left:  0;
+    top: 0;
+    width:  100%;
+    padding: 60px 0;
+}
+
+.section-padding {
+    padding:  60px 0;
+}
+
+.section-padding.yellow-bg {
+    background-color:  #E3BB1D;
+    color:  #fff;
+}
+
+.portfolio-list {
+    overflow:  hidden;
+    margin-left: -2%;
+}
+
+.single-portfolio-item {
+    height: 350px;
+    margin-left: 2%;
+    width: 60%;
+    float:  left;
+    background-size: cover;
+    background-position:  center;
+    background-color:  #ddd;
+    -webkit-transition: .3s;
+    transition:  .3s;
+    -webkit-transform:  scale(1);
+            transform:  scale(1);
+}
+
+.single-portfolio-item.small-item {
+    width: 36%;
+    margin-bottom:  2%;
+}
+
+.section-padding.dark-bg {
+    background-color:  #1C1D1F;
+}
+
+.section-padding.dark-bg h2 {
+    color:  #fff;
+    font-size:  40px;
+    font-weight:  400;
+    line-height:  2;
+}
+
+a.bordered-btn {
+    border: 2px solid #E3BB1D;
+    color:  #E3BB1D;
+    padding: 12px 50px;
+    display: inline-block;
+    font-weight: 700;
+    text-transform:  uppercase;
+    font-size: 15px;
+    letter-spacing:  2px;
+    margin-top: 40px;
+    -webkit-transition: .3s;
+    transition:  .3s;
+}
+
+.footer-area {
+    background-color:  #1C1D1F;
+    border-top: 1px solid #55595D;
+}
+
+.social-icon a {
+    display:  inline-block;
+    padding: 25px;
+    font-size: 25px;
+    padding-right: 0;
+    -webkit-transition: .3s;
+    transition:  .3s;
+}
+
+.footer-area p {
+    margin-top: 32px;
+}
+
+.social-icon a:hover {
+    color:  #E3BB1D;
+}
+
+.mainmenu li:hover a {
+    color:  #E3BB1D;
+}
+
+.section-padding.dark-bg .bordered-btn:hover {
+    background:  #fff;
+    border-color:  #fff;
+    color:  #000;
+    font-weight: 700;
+}
+
+.single-portfolio-item:hover {
+    -webkit-transform: scale(.9);
+            transform: scale(.9);
+    box-shadow: -20px 20px 50px #01B801;
+}

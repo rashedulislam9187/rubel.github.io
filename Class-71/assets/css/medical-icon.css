@@ -1,0 +1,61 @@
+	/*
+  	medical-icon icon font: medical-icon
+  	Creation date: 19/12/2016 09:22
+  	*/
+
+@font-face {
+  font-family: "MedicalIcon";
+  src: url("../fonts/medical-icon.eot");
+  src: url("../fonts/medical-icon.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/medical-icon.woff") format("woff"),
+       url("../fonts/medical-icon.ttf") format("truetype"),
+       url("../fonts/medical-icon.svg#MedicalIcon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "medical-icon";
+    src: url("../fonts/medical-icon.svg#MedicalIcon") format("svg");
+  }
+}
+
+[class^="medical-icon-"]:before, [class*=" medical-icon-"]:before,
+[class^="medical-icon-"]:after, [class*=" medical-icon-"]:after {   
+  font-family: MedicalIcon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.medical-icon-ambulance:before { content: "\f100"; }
+.medical-icon-bed:before { content: "\f101"; }
+.medical-icon-brain:before { content: "\f102"; }
+.medical-icon-cardiogram:before { content: "\f103"; }
+.medical-icon-cardiogram-1:before { content: "\f104"; }
+.medical-icon-cardiogram-2:before { content: "\f105"; }
+.medical-icon-dna:before { content: "\f106"; }
+.medical-icon-eye:before { content: "\f107"; }
+.medical-icon-first-aid-kit:before { content: "\f108"; }
+.medical-icon-heart:before { content: "\f109"; }
+.medical-icon-helicopter:before { content: "\f10a"; }
+.medical-icon-hospital:before { content: "\f10b"; }
+.medical-icon-intestine:before { content: "\f10c"; }
+.medical-icon-kidneys:before { content: "\f10d"; }
+.medical-icon-liver:before { content: "\f10e"; }
+.medical-icon-lungs:before { content: "\f10f"; }
+.medical-icon-medicine:before { content: "\f110"; }
+.medical-icon-microscope:before { content: "\f111"; }
+.medical-icon-pharmacy:before { content: "\f112"; }
+.medical-icon-pharmacy-1:before { content: "\f113"; }
+.medical-icon-pharmacy-2:before { content: "\f114"; }
+.medical-icon-pharmacy-3:before { content: "\f115"; }
+.medical-icon-pill:before { content: "\f116"; }
+.medical-icon-shield:before { content: "\f117"; }
+.medical-icon-stethoscope:before { content: "\f118"; }
+.medical-icon-stomach:before { content: "\f119"; }
+.medical-icon-syringe:before { content: "\f11a"; }
+.medical-icon-test-tube:before { content: "\f11b"; }
+.medical-icon-tooth:before { content: "\f11c"; }
+.medical-icon-wheelchair:before { content: "\f11d"; }

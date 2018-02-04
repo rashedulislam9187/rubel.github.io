@@ -1,0 +1,130 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700,700i,900,900i');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus, input:focus, textarea:focus, button:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    
+}
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+}
+
+a:hover { text-decoration: none }
+
+.flip-area {
+    background:  #EFEFEF;
+    padding:  50px 0;
+}
+.hover.flipbox {
+    margin-bottom: 60px;
+}
+.flipbox-service {
+    background:  #fff;
+    text-align:  center;
+    padding:  20px;
+    border-bottom:  4px solid black;
+    display:  table;
+    height: 100%;
+    width: 100%;
+}
+
+.back .flipbox-service {
+    background-color: #333;
+    color: #fff;
+}
+.flipbox-service h3 {
+    font-weight:  400;
+    margin-top: 0px;
+}
+
+.flipbox-service i.fa {
+    font-size:  100px;
+    margin-bottom:  20px;
+    color: blue;
+}
+.back .flipbox-service i.fa {
+    color: red;
+}
+.flipbox--service-tablecell {
+    display:  table-cell;
+    vertical-align:  middle;
+}
+
+.flipbox {
+    margin: 0 auto;
+    height: 300px;  
+    position: relative;
+    -webkit-perspective: 600px;
+    -moz-perspective: 600px;
+}
+  
+.flipbox .front {
+    height: inherit;
+    position: absolute;
+    top: 0;
+    z-index: 900;
+    text-align: center;
+    -webkit-transform: rotateX(0deg) rotateY(0deg);
+       -moz-transform: rotateX(0deg) rotateY(0deg);
+    -webkit-transform-style: preserve-3d;
+       -moz-transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+       -moz-backface-visibility: hidden;
+    -webkit-transition: all .4s ease-in-out;
+       -moz-transition: all .4s ease-in-out;
+        -ms-transition: all .4s ease-in-out;
+         -o-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;
+    width: 100%;
+}
+
+.flipbox .back {
+    height: inherit;
+    position: absolute;
+    top: 0;
+    z-index: 1000;
+    -webkit-transform: rotateY(-180deg);
+       -moz-transform: rotateY(-180deg);
+    -webkit-transform-style: preserve-3d;
+       -moz-transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+       -moz-backface-visibility: hidden;
+    -webkit-transition: all .4s ease-in-out;
+       -moz-transition: all .4s ease-in-out;
+        -ms-transition: all .4s ease-in-out;
+         -o-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;
+    width: 100%;
+}
+.flipbox.flip .front {
+    z-index: 900;
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+}
+.flipbox.flip .back {
+    z-index: 1000;
+    -webkit-transform: rotateX(0deg) rotateY(0deg);
+    -moz-transform: rotateX(0deg) rotateY(0deg);
+}

@@ -1,0 +1,82 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+    .hero-text h2{color:red}
+	.theme-2 .hero-text {
+		width: 100%;
+	}
+	.theme-2 .hero-text {
+		padding: 100px 80px;
+	}
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+    .hero-text h2{color:green}
+    .mainmenu li {
+		padding-left: 16px;
+	}
+	.header-area {
+		position: relative;
+	}
+	.footer-area {
+		position: relative;
+	}
+	html, .theme-1 {
+		height: auto;
+	}
+	.hero-text {
+		padding: 80px;
+		width: 100%;
+	}
+	.theme-2 .hero-text {
+		width: 100%;
+	}
+	.theme-2 .hero-text {
+		padding: 50px 80px;
+	}
+    .theme-2 .mainmenu li {
+		padding-left: 16px;
+	}
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+    .hero-text h2{
+        color:yellow
+    }
+	.header-area {
+		position: relative;
+	}
+	.footer-area {
+		position: relative;
+	}
+	html, .theme-1 {
+		height: auto;
+	}
+	.header-area {
+		padding: 50px 30px 20px 30px;
+	}
+	.mainmenu li {
+		display: block;
+	}
+	.hero-text {
+		padding: 30px;
+		width: 100%;
+	}	
+	.footer-area {
+		padding: 15px 30px;
+		text-align: center;
+	}
+	.socila-liks {
+		text-align: center;
+		margin-top: 10px;
+	}
+	.socila-liks a {
+		padding: 15px;
+	}
+	.theme-2 .hero-text {
+		padding: 15px 30px;
+	}
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+	.hero-text h2{color:blue}
+}

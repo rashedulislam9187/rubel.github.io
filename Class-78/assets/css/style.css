@@ -1,0 +1,124 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Herr+Von+Muellerhoff|Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus, input:focus, textarea:focus, button:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    
+}
+body {
+    line-height: 1.2;
+    font-family: 'Lato', sans-serif;
+}
+
+a:hover { text-decoration: none }
+
+.section-padding {
+    padding: 80px 0;
+}
+
+.food-box-bg {background-image: url(../img/morrnign.jpg);}
+.food-box-bg-2 {background-image: url(../img/lauch.jpg);}
+.food-box-bg-3 {background-image: url(../img/morrnign.jpg);}
+
+.food-box-info h3 {
+}
+.food-box-bg {
+    margin-right: -15px;
+    height: 350px;
+    margin-left: -15px;
+    background-size:  cover;
+    background-position:  center;
+    background-color:  #D29734;
+}
+
+.food-box-info {
+    background: #F3F5F5;
+    text-align:  center;
+    margin-top: -80px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-top: 4px solid #D29734;
+    padding: 30px;
+    transition:  .3s;
+}
+
+.food-box-info h3 {
+    font-family: 'Herr Von Muellerhoff', cursive;
+    font-size:  60px;
+    letter-spacing: 2px;
+    transition:  .3s;
+}
+
+.food-box-info h4 {
+    color:  #D29734;
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 2px;
+    transition:  .3s;
+}
+
+p.food-price {
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+p.food-price span {
+    font-size: 40px;
+}
+
+a.read-more-btn {
+    color:  #D29734;
+    border:  1px solid #D29734;
+    padding: 15px 25px;
+    display:  inline-block;
+    font-size: 14px;
+    text-transform:  uppercase;
+    font-weight:  700;
+    margin: 25px 0 10px 0;
+    transition:  .3s;
+}
+
+.single-food-box:hover .food-box-info {
+    background:  #D29734;
+    color:  #fff;
+}
+
+.single-food-box:hover .food-box-info h3 {
+    color: #FFFE00;
+}
+
+.single-food-box:hover .food-box-info h4 {
+    color:  #fff;
+}
+
+.single-food-box:hover a.read-more-btn {
+    color:  #fff;
+    border-color: #fff;
+}
+.single-food-box a.read-more-btn:hover {
+    background: #fff;
+    color: #D29734;
+}

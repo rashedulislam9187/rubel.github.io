@@ -1,0 +1,188 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+.section-title h2, .single-slide-item h2 {
+	color: green;
+}
+.header-left {
+    margin-top: auto;
+}
+.header-top i.fa-phone {
+    padding-left: 20px;
+}
+.socil-icons {
+    padding-left: 10px;
+}
+.socil-icons a {
+    height: 25px;
+    width: 25px;
+    line-height: 23px;
+    font-size: 12px;
+}
+.slider-area .owl-dots {
+    left: 0;
+    top: -115px;
+    width: 880px;
+}
+.cta-area h2 {
+    font-size: 17px;
+}
+.team-member-info {
+    margin-top: 10px;
+    padding: 25px 5px;
+    font-size: 14px;
+    line-height: 26px;
+}
+.team-member-info h3 {
+    font-size: 18px;
+}
+.social-icons a {
+    height: 30px;
+    width: 30px;
+    line-height: 28px;
+}
+footer.site-footer-area .socil-icons {
+    padding-left: 25px;
+}
+.email-subscribe {
+    margin-top: 30px;
+}
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+.section-title h2, .single-slide-item h2 {
+	color: blue;
+}
+.header-left {
+    margin-top: auto;
+}
+.socil-icons {
+    padding-top: 10px;
+}
+.site-logo {
+    font-size: 18px;
+    padding: 13px;
+}
+.mainmenu li a {
+    padding: 11px 9px;
+    font-size: 13px;
+}
+.slider-area .owl-dots {
+    left: 30px;
+    width: 680px;
+}
+.single-service-box {
+    margin: 15px 0;
+}
+.bordered-img img {
+    height: 100%;
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+}
+.cta-area h2 {
+    line-height: 30px;
+}
+.cta-area .boxed-btn {
+    display: inline-block;
+}
+.single-project-item.margin-bottom-0 {
+    margin-bottom: 50px;
+}
+h3.under-btn {
+    font-size: 16px;
+    padding: 13px 0;
+    margin-bottom: 25px;
+}
+ul.footer-menu i.fa {
+    margin-right: 20px;
+}
+.email-subscribe {
+    margin-top: 22px;
+}
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+.section-title h2, .single-slide-item h2 {
+	color: green;
+
+}
+.header-top {
+    padding: 5px;
+    text-align: center;
+}
+.socil-icons {
+    padding-left: 0;
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+.header-area {
+    text-align: center;
+}
+.mainmenu ul {
+    text-align: center;
+}
+.slider-area .owl-dots {
+    top: -70px;
+    width: 380px;
+}
+.single-service-box {
+    margin: 10px 0;
+}
+.cta-area {
+    padding: 30px 0;
+    text-align: center;
+}
+.cta-area .boxed-btn {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+.single-project-item {
+    padding-left: 280px;
+    padding-top: 0px;
+    padding-bottom: 0;
+    margin-bottom: 50px;
+    line-height: 25px;
+}
+.single-project-item.margin-bottom-0 {
+    margin-bottom: 50px;
+}
+.single-team-member-box {
+    margin: 15px 0;
+}
+.logo-carousel-area {
+    padding: 5px 0;
+}
+.footer-about-text .socil-icons {
+    margin-left: 0;
+    text-align: left;
+}
+h3.under-btn {
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+a.foote-btn {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.site-footer-area {
+    line-height: 20px;
+}
+.footer-about-text {
+    margin-top: -80px;
+}
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+.section-title h2, .single-slide-item h2 {
+	color: red;
+}
+.slider-area .owl-dots {
+    width: 500px;
+    top: -90px;
+}
+.cta-area .boxed-btn {
+    margin-top: 0;
+}
+}

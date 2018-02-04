@@ -1,0 +1,24 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+	.header-area li{color: green;}  
+	.single-portfolio-item {
+		height: 250px;
+	}   
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+	.header-area li{color: red;} 
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+	.header-area li{
+		color: red;
+	} 
+		
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+	.header-area li{color: blue;}
+
+}

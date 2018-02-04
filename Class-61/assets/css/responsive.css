@@ -1,0 +1,78 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+    .section-title {
+        color: rebeccapurple;
+    }
+    .location-direction {
+        padding: 25px 0 0 10px;
+    }
+    .section-description p {
+        padding: 0;
+    }
+    .section-description {
+        margin-bottom: 60px;
+    }
+    .section-bg {
+        padding: 40px 70px 0 70px;
+    }
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+    .section-title {
+        color: red;
+    }
+    .section-bg {
+        padding: 30px 25px 0 25px;
+    }
+    .section-description p {
+        padding: 0;
+    }
+    .section-description {
+        margin-bottom: 50px;
+    }
+    .location-direction li {
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+    .location-direction {
+        padding: 0;
+    }
+    .map {
+        height: 380px;    
+        margin-bottom: -60px;
+    }
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+    .section-title {
+        color: blue;
+    }
+    .section-description p {
+        padding: 0;
+    }
+    .section-title {
+        padding-bottom: 20px;
+    }
+    .section-description {
+        margin-bottom: 30px;
+    }
+    .location-direction li {
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+    .location-direction {
+        padding: 0;
+    }
+    div .col-sm-9 {
+        padding: 0;
+    }
+    .map {
+        height: 300px;
+    }
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+    .section-title {
+        color: green;
+    }
+}

@@ -1,0 +1,61 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+.carousel-item-tablecell h1 {
+	color: green;
+}
+
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+.carousel-item-tablecell h1 {
+	color: blue;
+}
+.carousel-item-tablecell h1 {
+    font-size: 100px;
+}
+.carousel-slide .owl-nav div {
+    left: 25px;
+}
+.carousel-slide .owl-nav div.owl-next {
+    right: 25px;
+}
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+.carousel-item-tablecell h1 {
+	color: green;
+
+}
+.carousel-item-tablecell h1 {
+    font-size: 50px;
+}
+.carousel-item-tablecell {
+    padding: 70px;
+}
+.carousel-slide .owl-dots img {
+    height: 50px;
+    width: 50px;
+}
+.carousel-slide .owl-dots div {
+    margin-left: 10px;
+}
+.carousel-slide .owl-dots {
+    position: relative;
+    right: auto;
+    bottom: 33px;
+    text-align: center;
+}
+.carousel-slide .owl-dots div {
+    border: 3px solid transparent;
+}
+.carousel-slide .owl-dots .active {
+    border: 3px solid red;
+}
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+.carousel-item-tablecell h1 {
+	color: red;
+}
+
+}
