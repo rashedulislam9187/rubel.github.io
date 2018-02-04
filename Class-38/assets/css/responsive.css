@@ -1,0 +1,125 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+.single-slide-item {
+	padding-top: 170px;
+	padding-bottom: 80px;
+}  
+.slide-text h2 {
+	font-size: 45px;
+	margin-bottom: 45px;
+}
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+.slide-text h2 {
+	font-size: 35px;
+	margin-bottom: 40px;
+} 
+.slide-text {
+	font-size: 16px;
+	padding-left: 50px;
+	padding-bottom: 40px;
+	padding-top: 40px;
+	padding-right: 70px;
+}
+.logo-text h4 {
+	position: relative;
+	top: -60px;
+	left: 100px;
+}
+.single-slide-item {
+	padding-top: 160px;
+	padding-bottom: 70px;
+}
+.slide-text .boxed-btn {
+	margin-top: 15px;
+}
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+.logo {
+	position: relative;
+	width: 50px;
+} 
+.logo-text h4 {
+	top: 5px;
+	left: 70px;
+}
+
+.right-content-box {
+	padding-left: 15px;
+	margin-left: 160px;
+	font-size: 13px;
+	top: -60px;
+    line-height: 1.2;
+}
+.right-content-box i.fa {
+	font-size: 20px;
+}
+.slide-text {
+	font-size: 15px;
+	padding: 10px;
+}
+.slide-text h2 {
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.slide-text .boxed-btn {
+	margin-top: 5px;
+}
+.boxed-btn {
+	padding: 10px 20px;
+}
+.single-slide-item {
+	padding-top: 170px;
+	padding-bottom: 50px;
+}
+.owl-nav {
+	display: none;
+}
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+.logo-text h4 {
+	top: 5px;
+	left: 75px;
+}
+.right-content-box {
+	padding-left: 15px;
+	margin-left: 0;
+	font-size: 13px;
+	top: -62px;
+	line-height: 1.5;
+}
+.slide-text h2 {
+	font-size: 38px;
+	margin-bottom: 30px;
+} 
+.slide-text {
+	font-size: 16px;
+	padding-left: 50px;
+	padding-bottom: 40px;
+	padding-top: 40px;
+	padding-right: 70px;
+}
+
+.single-slide-item {
+	padding-top: 160px;
+	padding-bottom: 80px;
+}
+.homepage-slides:hover .owl-nav div {
+	left: 25px;
+}
+
+.homepage-slides:hover .owl-nav div.owl-next {
+  right: 30px;
+}
+
+.owl-nav {
+	display: contents;
+}
+.slide-text .boxed-btn {
+	margin-top: 15px;
+}
+}
