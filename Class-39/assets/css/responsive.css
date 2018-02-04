@@ -1,0 +1,122 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+ 
+.mobile-screen {
+	max-height: 520px;
+}
+.hero-text {
+	max-width: 500px;
+	padding-top: 100px;
+	padding-bottom: 60px;
+}
+.logo a {
+	font-size: 22px;
+}
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+.header-area {
+	padding: 10PX 0;
+}
+.mainmenu ul {
+	margin-top: -75px;
+} 
+.header-area::after {
+	bottom: 0px;
+}
+.mobile-screen {
+	max-height: 450px;
+}
+.hero-text h1 {
+	margin-bottom: 25px;
+	font-size: 30px;
+}
+.hero-text p {
+	margin-bottom: 40px;
+	line-height: 1.5;
+}
+.hero-buttons a {
+	padding: 12px 20px;
+	font-size: 11px;
+	letter-spacing: 0px;
+}
+.underline-btn::after {
+	left: 20px;
+	bottom: 8px;
+	width: 72px;
+}
+.hero-text {
+	max-width: 350px;
+	padding-left: 20px;
+	padding-top: 110px;
+	padding-bottom: 80px;
+	padding-right: 30px;
+}
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+.logo img {
+	max-width: 50px;
+	margin-right: 15px;
+	height: 40px;
+} 
+.mainmenu ul {
+	text-align: left;
+}
+.mainmenu li {
+	padding: 3px;
+}
+.mainmenu li a {
+	font-size: 13px;
+}
+.mobile-screen {
+	position: unset;
+    max-height: 350px;
+margin-top: 30px;
+}
+.hero-text h1 {
+	margin-bottom: 20px;
+	font-size: 24px;
+}
+.hero-text {
+	max-width: 450px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 0;
+}
+.hero-text p {
+	margin-bottom: 30px;
+	line-height: 1.5;
+}
+.hero-buttons a {
+	padding: 12px 20px;
+	letter-spacing: 0;
+}
+.underline-btn::after {
+	left: 20px;
+	width: 70px;
+}
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+.mobile-screen {
+	position: absolute;
+	max-height: 300px;
+	right: 25px;
+	bottom: 0;
+}
+.hero-text {
+	max-width: 450px;
+	padding-top: 70px;
+	padding-bottom: 50px;
+	padding-right: 40px;
+	padding-left: 30px;
+}
+.mainmenu ul {
+	text-align: right;
+	margin-top: -60px;
+}
+.mainmenu li {
+	padding: 15px;
+}
+}
