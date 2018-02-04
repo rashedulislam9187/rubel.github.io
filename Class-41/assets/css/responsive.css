@@ -1,0 +1,122 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+.slide-text {
+	max-width: 420px;
+	padding-left: 70px;
+}
+.slide-text h1 {
+	font-size: 50px;
+	padding-top: 35px;
+	padding-bottom: 40px;
+}
+.top-ticker-text {
+	padding-top: 90px;
+}
+.lady-img {
+	height: 714px;
+}
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+.slide-text {
+	max-width: 300px;
+	padding-left: 45px;
+}
+.slide-text h1 {
+	font-size: 37px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.top-ticker-text {
+	padding-top: 60px;
+}
+.lady-img {
+	height: 571px;
+    right: -27px;
+}
+.slide-text .boxed-btn {
+	margin-bottom: 100px;
+	margin-top: 20px;
+}
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+.slide-text {
+	padding: 15px;
+}
+.top-ticker-text {
+	padding-top: 320px;
+	font-size: 14px;
+}
+.lady-img {
+	bottom: auto;
+	height: 300px;
+	top: 0;
+	right: -10px;
+}
+.slide-text h1 {
+	font-size: 32px;
+	font-weight: 390;
+	padding-top: 25px;
+	padding-bottom: 20px;
+}
+.slide-text .boxed-btn {
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.top-ticker-text::before {
+	height: 5px;
+	width: 100%;
+	content: "";
+	background: #fff;
+	position: absolute;
+	bottom: 73px;
+}
+.boxed-btn {
+  box-shadow: 0 20px 50px #F5F551;
+}
+.boxed-btn:hover {
+    box-shadow: 0 20px 50px #7D3B3D;
+}
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+.slide-text {
+	padding: 15px;
+    max-width: 710px;
+}
+.top-ticker-text {
+	padding-top: 320px;
+	font-size: 14px;
+}
+.lady-img {
+	bottom: auto;
+	height: 300px;
+	top: 0;
+	right: -10px;
+}
+.slide-text h1 {
+	font-size: 32px;
+	font-weight: 390;
+	padding-top: 25px;
+	padding-bottom: 20px;
+}
+.slide-text .boxed-btn {
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.top-ticker-text::before {
+	height: 5px;
+	width: 100%;
+	content: "";
+	background: #fff;
+	position: absolute;
+	bottom: 73px;
+}
+.boxed-btn {
+  box-shadow: 0 20px 50px #F5F551;
+}
+.boxed-btn:hover {
+    box-shadow: 0 20px 50px #7D3B3D;
+}
+}
