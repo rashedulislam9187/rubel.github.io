@@ -1,0 +1,203 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Mr+De+Haviland|Roboto:300,300i,400,400i,500,500i,700');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus, input:focus, textarea:focus, button:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+a:hover { text-decoration: none }
+
+body,html {
+    height: 100%;
+}
+.welcome-hero-area {
+    background-image: url(../img/background-bg-1.jpg);
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+.hero-area-logo h3 {
+    font-family: 'Mr De Haviland', cursive;
+}
+.welcome-hero-area:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+    background: #0B1B33;
+    height: 100%;
+    width: 100%;
+    opacity: .2;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
+    z-index: -1;
+}
+.header-area {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    padding-top: 15px;
+}
+.logo a {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 25px;
+    position: relative;
+    z-index: 1; 
+    display: inline-block;
+}
+.logo a:after {
+    background: #fff;
+    height: 2px;
+    width: 100%;
+    left: 0;
+    bottom: -4px;
+    position: absolute;
+    content: "";
+}
+.logo h1 {
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+.main-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-top: 13px;
+}
+.main-menu li {
+    display: inline-block;
+    padding-left: 30px;
+}
+.main-menu li a {
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    opacity: .7;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+}
+.main-menu li a:after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 1px;
+    width: 100%;
+    content: "";
+    background: #fff;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    z-index: -1;
+}
+.main-menu li a:hover:after {
+    opacity: .7;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+    z-index: 1;
+}
+.hero-area-table {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.hero-area-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+}
+.scroll-top-about {
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+    font-size: 35px;
+    color: #fff;
+    height: 40px;
+    width: 40px;
+    margin-left: -20px;
+    opacity: .3;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+}
+.hero-area-logo h3 {
+    color: #C39C5D;
+    font-size: 100px;
+    line-height: 20px;
+    font-weight: 300;
+}
+.hero-area-logo h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 35px;
+    letter-spacing: 12px;
+}
+.border-area {
+    overflow: hidden;
+    max-width: 261px;
+    margin: 0 auto;
+}
+.border-area i.fa {
+    color: #C39E61;
+    float: left;
+    margin: 0 20px;
+}
+.border-area-left, .border-area-right {
+    float: left;
+    height: 2px;
+    width: 38%;
+    background: #fff;
+    margin-top: 7px;
+    position: relative;
+}
+.hero-area-logo p {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 13px;
+}
+.border-area-left:before {
+    position: absolute;
+    content: "";
+    left: 0px;
+    top: -4px;
+    height: 0;
+    width: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 10px solid #fff;
+}
+.border-area-right:after {
+    position: absolute;
+    content: "";
+    right: 0px;
+    top: -4px;
+    height: 0;
+    width: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-right: 10px solid #fff;
+}
